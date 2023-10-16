@@ -25,14 +25,14 @@
     var serviceWorkerVersion = "2096743127";
   </script>
   <!-- This script adds the flutter initialization JS code -->
-  <script src="./flutter.js" defer type="text/JavaScript"></script>
+  <script src="./flutter.js" type="text/JavaScript"></script>
 </head>
 
 <body>
   <script>
     window.addEventListener('load', function (ev) {
       // Download main.dart.js
-      console.log(_flutter);
+      // console.log(_flutter);
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
