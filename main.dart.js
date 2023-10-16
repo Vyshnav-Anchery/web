@@ -304,7 +304,7 @@ B.b.T(a0)
 for(i=new A.m4(a3,a3.r),i.c=a3.e,h=A.l(i).c,g=0;i.t();){f=i.d
 if(f==null)f=h.a(f)
 for(e=new A.m4(a2,a2.r),e.c=a2.e,d=A.l(e).c,c=0;e.t();){b=e.d
-if(f.v(0,b==null?d.a(b):b))++c}if(c>g){B.b.T(a0)
+if(f.v(0,b==null?d.a(b):b))++c}if(c>p){B.b.T(a0)
 a0.push(f)
 g=c}else if(c===g)a0.push(f)}if(g===0)break
 j.a=B.b.gJ(a0)
@@ -23456,7 +23456,7 @@ r=s==null?null:s.content
 s=r==null
 if(!s)self.window.console.warn("The `assetBase` meta tag is now deprecated.\nUse engineInitializer.initializeEngine(config) instead.\nSee: https://docs.flutter.dev/development/platform-integration/web/initialization")
 q=this.b=s?"":r
-s=q}return A.S8(B.hL,s+"assets/"+a,B.T,!1)}}
+s=q}return A.S8(B.hL,s+"web/assets/"+a,B.T,!1)}}
 A.ud.prototype={
 F(){return"BrowserEngine."+this.b}}
 A.iw.prototype={
@@ -24403,7 +24403,7 @@ hj(a){return this.a8x(a)},
 a8x(a){var s=0,r=A.R(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$hj=A.S(function(b,a0){if(b===1)return A.O(a0,r)
 while(true)switch(s){case 0:s=3
-return A.U(A.tF(a.ob("FontManifest.json")),$async$hj)
+return A.U(A.tF(a.ob("web/FontManifest.json")),$async$hj)
 case 3:f=a0
 if(!f.gDm()){$.di().$1("Font manifest does not exist at `"+f.a+"` - ignoring.")
 s=1
