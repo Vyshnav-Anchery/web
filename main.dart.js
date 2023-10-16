@@ -24403,7 +24403,7 @@ hj(a){return this.a8x(a)},
 a8x(a){var s=0,r=A.R(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$hj=A.S(function(b,a0){if(b===1)return A.O(a0,r)
 while(true)switch(s){case 0:s=3
-return A.U(A.tF(a.ob("web/FontManifest.json")),$async$hj)
+return A.U(A.tF(a.ob("FontManifest.json")),$async$hj)
 case 3:f=a0
 if(!f.gDm()){$.di().$1("Font manifest does not exist at `"+f.a+"` - ignoring.")
 s=1
