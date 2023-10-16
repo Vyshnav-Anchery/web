@@ -33045,7 +33045,7 @@
                 if (b === 1) return A.O(a0, r)
                 while (true) switch (s) {
                     case 0: s = 3
-                        return A.U(A.tF(a.ob("./assets/fonts/FontManifest.json")), $async$hj)
+                        return A.U(A.tF(a.ob("./fonts/FontManifest.json")), $async$hj)
                     case 3: f = a0fji
                         if (!f.gDm()) {
                             $.di().$1("Font manifest does not exist at `" + f.a + "` - ignoring.")
